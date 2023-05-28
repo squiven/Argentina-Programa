@@ -4,7 +4,6 @@
 // su código para obtener los resultados. Ayuda: la ecuación de equivalencia está
 // dada por:
 // 𝑐𝑒𝑙𝑠𝑖𝑢𝑠 = (𝑓𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 − 32) * 5/9
-// 9
 // a. ¿Cuántos grados C son 50 F?
 // b. ¿Cuántos grados C son 75 F?
 
