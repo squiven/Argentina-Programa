@@ -2,7 +2,7 @@
 // guardar este programa en un archivo llamado: areaRectangulo.js. Luego,
 // responder a las siguientes preguntas utilizando su código para obtener los
 // resultados. Ayuda: la ecuación del área de un rectángulo está dada por:
-// 𝑎𝑟𝑒𝑎 = 𝑏𝑎𝑠𝑒 * 𝑎𝑙𝑡𝑢𝑟𝑎
+// area = base * altura
 // a. ¿Cuál es el área de un rectángulo de base 5cm y altura 3cm?
 // b. ¿Cuál es el área de un rectángulo de base 12.5cm y altura 5.3cm?
 
