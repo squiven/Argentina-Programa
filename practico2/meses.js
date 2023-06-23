@@ -32,7 +32,7 @@ const meses = {
   12: 'diciembre'
 };
 
-const numero = parseInt(readlineSync.question('Ingrese un numero del 1 al 12 representando un mes: '));
+const numero = readlineSync.question('Ingrese un numero del 1 al 12 representando un mes: ');
 
 if (numero >= 1 && numero <= 12) {
   let cantidadDeDias;

@@ -6,8 +6,7 @@
 
 
 const readlineSync = require('readline-sync');
-
-const numero = parseFloat(readlineSync.question('Ingrese un numero: '));
+const numero = readlineSync.question('Ingrese un número: ');
 
 if (numero > 0) {
   console.log('El número es positivo');
