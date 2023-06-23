@@ -12,35 +12,31 @@
 
 const readlineSync = require('readline-sync');
 
-const numero = parseInt(readlineSync.question('Ingrese un numero del 1 al 7 representando un dia de la semana: '));
+const numeroDia = readlineSync.question('Ingrese un número del 1 al 7: ');
 
-let mensaje;
-
-switch (numero) {
-  case 1:
-    mensaje = 'Hoy es lunes';
+switch (numeroDia) {
+  case '1':
+    console.log('Hoy es lunes');
     break;
-  case 2:
-    mensaje = 'Hoy es martes';
+  case '2':
+    console.log('Hoy es martes');
     break;
-  case 3:
-    mensaje = 'Hoy es miércoles';
+  case '3':
+    console.log('Hoy es miércoles');
     break;
-  case 4:
-    mensaje = 'Hoy es jueves';
+  case '4':
+    console.log('Hoy es jueves');
     break;
-  case 5:
-    mensaje = 'Hoy es viernes';
+  case '5':
+    console.log('Hoy es viernes');
     break;
-  case 6:
-    mensaje = 'Hoy es sábado';
+  case '6':
+    console.log('Hoy es sábado');
     break;
-  case 7:
-    mensaje = 'Hoy es domingo';
+  case '7':
+    console.log('Hoy es domingo');
     break;
   default:
-    mensaje = 'Número inválido';
+    console.log('Número inválido');
     break;
 }
-
-console.log(mensaje);
