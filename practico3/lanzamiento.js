@@ -1,7 +1,6 @@
 // En este ejercicio, queremos que imprima una cuenta regresiva de lanzamiento de un
 // cohete a Marte. Dicha cuenta irá desde 10 hasta el despegue. Específicamente,
 // queremos que:
-
 // ● Cree un bucle de 10 a 0. Ayuda: inicializador: let i = 10;
 // ● Para cada iteración, imprima por consola usando console.log.
 // ● Diferentes números de iteración requieren que se coloque un texto diferente en
